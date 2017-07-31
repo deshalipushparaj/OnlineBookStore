@@ -1,0 +1,504 @@
+html,
+body {
+  background: #222;
+  text-align: center;
+  min-height: 2000px;
+}
+a {
+  color: pink;
+}
+.pink {
+  color: pink;
+}
+h1 {
+  text-align: center;
+  font-size: 180px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  padding: 40px;
+}
+@media only screen and (max-width: 1240px) {
+  h1 {
+    font-size: 140px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  h1 {
+    font-size: 100px;
+  }
+}
+@media only screen and (max-width: 724px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 43px;
+    padding: 20px;
+  }
+}
+h2 {
+  text-align: center;
+  font-size: 36px;
+  color: pink;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  letter-spacing: 24px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+@media only screen and (max-width: 1000px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 840px) {
+  h2 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 12px;
+  }
+}
+@media only screen and (max-width: 610px) {
+  h2 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 6px;
+  }
+}
+.pre-title {
+  padding-top: 120px;
+  display: block;
+  text-align: center;
+}
+.pre-title .pre-title-text {
+  color: white;
+  vertical-align: middle;
+  font-size: 64px;
+  letter-spacing: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  display: inline-block;
+}
+@media only screen and (max-width: 768px) {
+  .pre-title .pre-title-text {
+    font-size: 42px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .pre-title .pre-title-text {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .pre-title .pre-title-text {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+.pre-title .pre-title-line {
+  display: inline-block;
+  vertical-align: middle;
+  height: 1px;
+  width: 200px;
+  background: pink;
+}
+@media only screen and (max-width: 920px) {
+  .pre-title .pre-title-line {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .pre-title .pre-title-line {
+    width: 30px;
+  }
+}
+h3 {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: left;
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 1140px) {
+  h3 {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .about h3 {
+    padding: 0;
+  }
+}
+.page-menu-bar {
+  background: #222;
+  display: block;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+@media only screen and (max-width: 768px) {
+  .page-menu-bar .page-menu {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .page-menu-bar {
+    background: none;
+  }
+}
+.page-menu-bar li {
+  display: inline-block;
+  margin: 20px 40px 16px 40px;
+}
+.page-menu-bar li a {
+  color: #999;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.page-menu-bar li a:hover {
+  color: white;
+}
+.page-menu-bar li .selected {
+  font-weight: 400;
+  color: pink;
+}
+.res-menu-button {
+  text-align: right;
+  color: #999;
+  cursor: pointer;
+  padding-right: 20px;
+  font-size: 56px;
+  display: none;
+}
+.res-menu-button:hover {
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .res-menu-button {
+    display: block;
+  }
+}
+.res-menu {
+  display: none;
+}
+.res-menu li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.res-menu li a {
+  display: block;
+  padding: 16px;
+  background: #222;
+  border-bottom: 1px solid #333;
+  color: white;
+}
+.res-menu li a:hover {
+  color: pink;
+}
+.about {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: inline-block;
+  text-align: left;
+  margin-right: 60px;
+}
+@media only screen and (min-width: 1141px) {
+  .about {
+    width: 684px;
+  }
+}
+@media only screen and (max-width: 1140px) and (min-width: 769px) {
+  .about {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about {
+    display: block;
+    padding: 20px;
+    margin-right: 0;
+  }
+}
+.about .featured-text {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-style: italic;
+  color: pink;
+}
+.about p {
+  display: block;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.about-wrapper {
+  padding-top: 40px;
+  border-bottom: 3px dashed #333;
+  margin: 0 auto;
+  position: relative;
+}
+@media only screen and (min-width: 1141px) {
+  .about-wrapper {
+    width: 1140px;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .about-wrapper {
+    display: block;
+  }
+}
+.about-img {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 1141px) {
+  .about-img {
+    width: 394px;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .about-img {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-img {
+    display: none;
+  }
+}
+.service-bg-wrapper {
+  background-image: url('http://i58.tinypic.com/rk9bvl.jpg');
+  background-size: cover;
+  margin-bottom: -3px;
+}
+.services-wrapper {
+  text-align: left;
+  position: relative;
+  padding-top: 80px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  border-bottom: 3px dashed #333;
+}
+@media only screen and (min-width: 1141px) {
+  .services-wrapper {
+    width: 1140px;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .services-wrapper {
+    display: block;
+  }
+}
+.services-wrapper p {
+  display: block;
+  vertical-align: top;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 20px 20px 20px 20px;
+}
+h4 {
+  display: block;
+  background: #111;
+  border-bottom: 1px solid pink;
+  color: white;
+  text-align: left;
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  margin: 20px 0;
+}
+.toggle-service {
+  float: right;
+  color: white;
+  cursor: pointer;
+}
+.contact-wrapper {
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+@media only screen and (min-width: 1141px) {
+  .contact-wrapper {
+    width: 1140px;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .contact-wrapper {
+    display: block;
+  }
+}
+.contact-wrapper .contact-form {
+  margin-right: 60px;
+  display: inline-block;
+  vertical-align: top;
+}
+@media only screen and (min-width: 1141px) {
+  .contact-wrapper .contact-form {
+    width: 684px;
+  }
+}
+@media only screen and (max-width: 1140px) and (min-width: 961px) {
+  .contact-wrapper .contact-form {
+    width: 58%;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .contact-wrapper .contact-form {
+    display: block;
+    padding: 20px;
+  }
+}
+.contact-wrapper .contact-form input {
+  display: block;
+  width: 90%;
+  padding: 16px;
+  background: none;
+  color: #777;
+  border: 1px solid #777;
+  font-family: 'Raleway', sans-serif;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 960px) {
+  .contact-wrapper .contact-form input {
+    display: block;
+    width: 100%;
+  }
+}
+.contact-wrapper .contact-form textarea {
+  display: block;
+  width: 90%;
+  padding: 16px;
+  background: none;
+  color: #777;
+  border: 1px solid #777;
+  font-family: 'Raleway', sans-serif;
+  font-size: 21px;
+  margin-bottom: 20px;
+  height: 200px;
+}
+@media only screen and (max-width: 960px) {
+  .contact-wrapper .contact-form textarea {
+    display: block;
+    width: 100%;
+  }
+}
+.contact-wrapper .contact-form .form-submit {
+  color: pink;
+  width: 95%;
+  border-color: pink;
+  cursor: pointer;
+}
+@media only screen and (max-width: 960px) {
+  .contact-wrapper .contact-form .form-submit {
+    display: block;
+    width: 100%;
+  }
+}
+.contact-wrapper .contact-form .pressed {
+  background: #141414;
+}
+.contact-wrapper .contact-side {
+  padding-top: 20px;
+  border-top: 4px solid #222;
+  display: inline-block;
+  vertical-align: top;
+}
+@media only screen and (min-width: 1141px) {
+  .contact-wrapper .contact-side {
+    width: 396px;
+  }
+}
+@media only screen and (max-width: 1140px) and (min-width: 961px) {
+  .contact-wrapper .contact-side {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .contact-wrapper .contact-side {
+    display: block;
+    padding: 20px;
+  }
+}
+.contact-wrapper .contact-side p {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+.contact-wrapper .contact-side .hours-heading {
+  font-size: 24px;
+  color: pink;
+}
+.products-wrapper {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 3px dashed #333;
+}
+@media only screen and (min-width: 1141px) {
+  .products-wrapper {
+    width: 1140px;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .products-wrapper {
+    display: block;
+  }
+}
+.product {
+  vertical-align: top;
+}
+@media only screen and (min-width: 1141px) {
+  .product {
+    width: 380px;
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 1140px) and (min-width: 769px) {
+  .product {
+    width: 33%;
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .product {
+    display: block;
+    padding: 20px;
+  }
+}
+.product img {
+  border-radius: 50%;
+}
+.product p {
+  font-family: 'Raleway', sans-serif;
+  color: #aaa;
+  font-size: 18px;
+  line-height: 1.7;
+  padding: 20px;
+}
