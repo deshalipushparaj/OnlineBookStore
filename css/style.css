@@ -34,7 +34,7 @@ figurecaption {
 
 .pic-1 {
   opacity: 1;
-  background: url(book5.jpeg) no-repeat center center;
+  background: url(book1.jpg) no-repeat center center;
       -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -47,7 +47,7 @@ figurecaption {
   -o-animation-delay: 6s;
   -moz--animation-delay: 6s;
   -webkit-animation-delay: 6s;
-  background: url(book2.jpeg) no-repeat center center;
+  background: url(book2.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -61,7 +61,7 @@ figurecaption {
   -o-animation-delay: 12s;
   -moz--animation-delay: 12s;
   -webkit-animation-delay: 12s;
-  background: url(book4.jpeg) no-repeat center center;
+  background: url(book3.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -75,7 +75,7 @@ figurecaption {
   -o-animation-delay: 18s;
   -moz--animation-delay: 18s;
   -webkit-animation-delay: 18s;
-  background: url(book3.jpeg) no-repeat center center;
+  background: url(book4.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
